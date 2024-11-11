@@ -1,0 +1,18 @@
+{
+  "MENU": {
+    "DASHBOARD": "Dashboard",
+    "USERS": "Users",
+    "SETTINGS": "Settings"
+  },
+  "PROFILE": {
+    "MY_PROFILE": "My Profile",
+    "LOGOUT": "Logout"
+  },
+  "DASHBOARD": {
+    "TITLE": "Dashboard Overview",
+    "ACTIVE_USERS": "Active Users",
+    "TOTAL_ORDERS": "Total Orders",
+    "REVENUE": "Revenue",
+    "GROWTH": "Growth"
+  }
+}
