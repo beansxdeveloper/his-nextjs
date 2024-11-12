@@ -21,7 +21,7 @@ export const useAuth = () => {
       }
 
       // Redirect to dashboard
-      router.push('/dashboard');
+      // router.push('/dashboard');
     },
   });
 

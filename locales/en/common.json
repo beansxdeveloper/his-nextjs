@@ -9,10 +9,32 @@
     "LOGOUT": "Logout"
   },
   "DASHBOARD": {
-    "TITLE": "Dashboard Overview",
-    "ACTIVE_USERS": "Active Users",
-    "TOTAL_ORDERS": "Total Orders",
-    "REVENUE": "Revenue",
-    "GROWTH": "Growth"
+    "TITLE": "Medication Dispensing Overview",
+    "ACTIVE_USERS": "Active Practitioners",
+    "TOTAL_ORDERS": "Total Prescriptions",
+    "REVENUE": "Medication Revenue",
+    "GROWTH": "Patient Growth"
+  },
+  "HOSPITAL": {
+    "NAME": "CHG Hospital"
+  },
+  "LOGIN": {
+    "SIGNIN": "Sign In",
+    "TITLE": "Please enter your login details to continue.",
+    "LOGINNAME": {
+      "PLEASE_ENTER": "Please enter your username",
+      "LABEL": "Username"
+    },
+    "PASSWORD": {
+      "PLEASE_ENTER": "Please enter your password",
+      "LABEL": "Password"
+    },
+    "REMEMBER": "Remember me",
+    "FORGOT": "Forgot password?",
+    "BUTTON": "Login",
+    "MESSAGES": {
+      "ACCESS_DENIED": "Access denied",
+      "SUCCESS": "Login successful"
+    }
   }
 }

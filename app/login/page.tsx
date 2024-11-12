@@ -1,18 +1,15 @@
 'use client';
 
-import { useState } from 'react';
 import { Form, Input, Button, App, Checkbox } from 'antd';
 import { UserOutlined, LockOutlined, EyeOutlined, EyeInvisibleOutlined } from '@ant-design/icons';
 import Image from 'next/image';
 import { useTranslation } from 'react-i18next';
 import { useRouter } from 'next/navigation';
-import LanguageSwitcher from '../components/LanguageSwitcher';
 import { useAuth } from '@/hooks/useAuth';
-import '../i18n/client';
 
 export default function Login() {
   const { message } = App.useApp();
-  const { t } = useTranslation('common');
+  const { t } = useTranslation();
   const { login, isLoading } = useAuth();
   const router = useRouter();
 
@@ -35,7 +32,7 @@ export default function Login() {
       <div className="hidden lg:flex lg:w-[60%] bg-[#4B7B7D] flex-col items-center justify-center p-8 text-white">
         <div className="flex flex-col items-center space-y-6">
           <Image
-            src="/chg-logo.png"
+            src="/hospital-logo.png"
             alt={t('HOSPITAL.NAME')}
             width={150}
             height={150}
@@ -49,9 +46,6 @@ export default function Login() {
 
       <div className="w-full lg:w-[40%] flex items-center justify-center p-8">
         <div className="w-full max-w-md">
-          <div className="absolute top-4 right-4">
-            <LanguageSwitcher />
-          </div>
           
           <div className="text-left mb-8">
             <h2 className="text-3xl font-bold">{t('LOGIN.SIGNIN')}</h2>
